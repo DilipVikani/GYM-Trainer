@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.1"
+    android:background="@color/white"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical"
+    tools:context=".homepage">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/logo"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"-->
+<!--        android:layout_marginStart="-25dp"-->
+<!--        android:layout_marginTop="-600dp"-->
+<!--        android:layout_marginEnd="-25dp"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:cropToPadding="false"-->
+<!--        android:gravity="center"-->
+<!--        android:src="@drawable/exercise"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintBottom_toTopOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        tools:ignore="ContentDescription"-->
+<!--        tools:visibility="visible" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginBottom="320dp"-->
+<!--        android:background="@drawable/math_bg"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:text="YOGA"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FAF6F6"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="100dp"-->
+<!--        app:layout_constraintVertical_bias="1.0"-->
+<!--        tools:ignore="TextContrastCheck" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:background="@drawable/math_bg"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:text="EXERCISE"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FAF6F6"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/button"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/logo"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.416" />-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/homeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:title="GYM APP"
+        android:background="@color/design_default_color_primary_dark"
+        app:subtitleTextColor="@color/white"
+        app:titleTextColor="#FFFFFF"
+        app:menu="@menu/home_top_menu" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1"
+        android:scrollbars="none"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0">
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="270dp"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="250dp"
+                            android:padding="5dp"
+                            android:src="@drawable/exercise1" />
+
+                    </LinearLayout>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1.0dp"
+                    android:background="@drawable/math_bg"
+                    android:text="EXERCISE"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="250dp"
+                        android:padding="5dp"
+
+                        android:src="@drawable/yoga" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1.0dp"
+                    android:background="@drawable/math_bg"
+                    android:text="yoga"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/weigh" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1.0dp"
+                    android:background="@drawable/math_bg"
+                    android:text="Weight LOOSING EXERCISES"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:layout_weight="0.0">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="250dp"
+                        android:padding="5dp"
+                        android:src="@drawable/nutration" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1.0dp"
+                    android:background="@drawable/math_bg"
+                    android:text="NUtration"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+        </LinearLayout>
+

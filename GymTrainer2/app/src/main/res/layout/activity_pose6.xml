@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shoulderstandpose"
+
+                />
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg_round"
+                android:padding="15dp"
+                android:text="01:00"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/statbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/btn_bg"
+                android:text="START"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="08dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/butnbg"
+                android:padding="7dp"
+                android:text="How To Do This"
+                android:textAlignment="center"
+                android:textColor="#686060"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="20dp"
+                android:background="#ECEDE8"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ECEDE8"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ECEDE8"
+                        android:text="Step-1:-Lie on your back with hands by your side.
+                                                                                        Step-2:-With one movement, lift your legs, buttocks and back so that you come up high on your shoulders. Support your back with the hands.
+                                                                                        Step-3:-Move your elbows closer towards each other, and move your hands along your back, creeping up towards the shoulder blades. Keep straightening the legs and spine by pressing the elbows down to the floor and hands into the back. Your weight should be supported on your shoulders and upper arms and not on your head and neck.
+                                                                                        Step-4:-Keep the legs firm. Lift your heels higher as though you are putting a footprint on the ceiling. Bring the big toes straight over the nose. Now point the toes up. Pay attention to your neck. Do not press the neck into the floor. Instead keep the neck strong with a feeling of tightening the neck muscles slightly. Press your sternum toward the chin. If you feel any strain in the neck, come out of the posture.
+                                                                                        Step-5:-Keep breathing deeply and stay in the posture for 30-60 seconds.
+                                                                                        Step-6:-To come out of the posture, lower the knees to forehead. Bring your hands to the floor, palms facing down. Without lifting the head slowly bring your spine down, vertebra by vertebra, completely to the floor.
+                                                                                        Step-7:-Lower the legs to the floor. Relax for a minimum of 60 seconds."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textStyle="italic"
+                        android:textColorHighlight="@color/black"
+                        android:lineSpacingExtra="1dp"
+                        android:textSize="18sp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

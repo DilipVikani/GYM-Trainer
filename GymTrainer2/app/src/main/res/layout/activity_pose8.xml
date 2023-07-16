@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fourlimbedstaffpose"
+
+                />
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg_round"
+                android:padding="15dp"
+                android:text="01:00"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/statbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/btn_bg"
+                android:text="START"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="08dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/butnbg"
+                android:padding="7dp"
+                android:text="How To Do This"
+                android:textAlignment="center"
+                android:textColor="#686060"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="20dp"
+                android:background="#ECEDE8"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ECEDE8"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ECEDE8"
+                        android:text="Step-1:-align your shoulders slightly ahead of your wrists and come onto the balls of your feet.
+                                                                                                            Step-2:-Push back through your heels to engage your quadriceps as you reach your sternum forward, creating a straight, taut line of energy from the crown of your head through your feet.
+                                                                                                            Step-3:-On an inhalation, draw your shoulders and the tops of your thighs up and away from the floor. Pull your lower body up and in, and release your tailbone toward the floor.
+                                                                                                            Step-4:-On an exhalation, bend your elbows and slowly lower your body (keeping it as straight as a plank of wood) until your elbows are at around 90 degrees.
+                                                                                                            Step-5:-Keep your elbows directly over your wrists and drawn in against your sides. Press your hands firmly into the floor.Bring your gaze to the floor, about 6 inches in front of you, and continue to lower until your shoulders are at the same height as your elbows.
+                                                                                                            Step-6:-Continue to reach through the heels, sternum, and crown of your head as you breathe.
+                                                                                                            Step-7:-To come out of the pose, exhale and lower down to your belly or push back up to Plank Pose."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textStyle="italic"
+                        android:textColorHighlight="@color/black"
+                        android:lineSpacingExtra="1dp"
+                        android:textSize="18sp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

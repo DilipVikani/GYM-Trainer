@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/warriorpose"
+
+                />
+
+            <Button
+                android:id="@+id/time"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg_round"
+                android:padding="15dp"
+                android:text="01:00"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/statbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/btn_bg"
+                android:text="START"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="08dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/butnbg"
+                android:padding="7dp"
+                android:text="How To Do This"
+                android:textAlignment="center"
+                android:textColor="#686060"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="20dp"
+                android:background="#ECEDE8"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#ECEDE8"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ECEDE8"
+                        android:text="Step-1:-Stand straight with your legs wide apart.
+                                                                                            Step-2:-Turn one foot by 90 degrees outwards and the other foot in by about 15 degrees.
+                                                                                            Step-3:-Make sure that the heel of the foot that is tuned 15 degrees, is aligned to the center of the other foot.
+                                                                                            Step-4:-Place your hands on your hips and turn your shoulders, chest and pelvis forward. Torso facing the front of the mat.
+                                                                                            Step-5:-While inhaling, bring the arms from the sides over your head. Keep your palms in a namaste pose over your head.
+                                                                                            Step-6:-Bring your shoulders down the back while keeping the back leg firm.
+                                                                                            Step-7Bend the back knee and exhale deeply keeping it directly in line with the other ankle.
+                                                                                            Step-8:-The thigh should be parallel to the ground. Make sure the bent knee does not pass the ankle and the big toe is visible.
+                                                                                            Step-9:-Arch your back and drop your head back, gaze upwards towards the namaste pose.
+                                                                                            Step-10Ground down the front foot making sure the outer edge of the foot is pressed firmly on the mat. This will allow the weight to shift backward.
+                                                                                            Step-11:-Draw your tailbone toward the pelvis and engage your abdomen.Retain the pose for 10-20 seconds."
+                        android:textColor="@color/black"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textStyle="italic"
+                        android:textColorHighlight="@color/black"
+                        android:lineSpacingExtra="1dp"
+                        android:textSize="18sp"
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".kundaliniyoga">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="end"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        app:title="Kundlini Yoga Exercises"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="100dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:layout_marginTop="20dp"
+             android:orientation="vertical"
+             >
+
+             <LinearLayout
+                 android:onClick="ImagebuttonClick"
+                 android:id="@+id/pose10"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="10dp"
+                 android:orientation="horizontal">
+
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_margin="10.0dp"
+                 android:layout_weight="1.0"
+                 android:orientation="vertical"
+                 >
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:fontFamily="monospace"
+                     android:text="First chakra-mooladhara(root chakra)"
+                     android:textAllCaps="true"
+                     android:textColor="#ff000000"
+                     android:textSize="12.0dp"
+                     android:textStyle="bold"
+
+                     />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="repeat 2 Time"
+                     android:textSize="10dp"
+                     android:textStyle="bold"
+
+                     />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="1:00 MIN"
+                     android:textColor="#ffff5722"
+                     android:textSize="09dp"
+                     android:textStyle="bold"
+
+                     />
+
+             </LinearLayout>
+
+
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="2.0"
+                     >
+
+
+                 <pl.droidsonroids.gif.GifImageView
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/muladharchakra"
+
+                     />
+
+                 </LinearLayout>
+
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:gravity="center"
+                     android:layout_weight="0.0"
+                     >
+
+                     <ImageView
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="5.0dp"
+                         android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                         />
+
+                 </LinearLayout>
+
+             </LinearLayout>
+
+
+             <TableRow
+                 android:layout_width="fill_parent"
+                 android:layout_height="1.0dp"
+                 android:background="#ffaaa9a9"
+                 />
+
+
+
+
+
+
+         </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:id="@+id/pose11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="second-chakra-svadisthana(sacral chakrea)"
+                            android:textAllCaps="true"
+                            android:textColor="#ff000000"
+                            android:textSize="11.0dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="repeat 2 Time"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1:00 MIN"
+                            android:textColor="#ffff5722"
+                            android:textSize="09dp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/sacralchakra"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#ffaaa9a9"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:id="@+id/pose12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="10.0dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="Third Chakra-Manipura(Solar Plexus)"
+                            android:textAllCaps="true"
+                            android:textColor="#ff000000"
+                            android:textSize="12.0dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="repeat 2 Time"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1:00 MIN"
+                            android:textColor="#ffff5722"
+                            android:textSize="09dp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/solarchakra"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#ffaaa9a9"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:id="@+id/pose13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="fourth chakra-anahata(heart chakra)"
+                            android:textAllCaps="true"
+                            android:textColor="#ff000000"
+                            android:textSize="12.0dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="repeat 2 Time"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1:00 MIN"
+                            android:textColor="#ffff5722"
+                            android:textSize="09dp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/heartchakra"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#ffaaa9a9"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:id="@+id/pose14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="fifth chakra-vishuddha(throat chakra)"
+                            android:textAllCaps="true"
+                            android:textColor="#ff000000"
+                            android:textSize="12.0dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="repeat 2 Time"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1:00 MIN"
+                            android:textColor="#ffff5722"
+                            android:textSize="09dp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/vissudhachakra"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#ffaaa9a9"
+                    />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:id="@+id/pose15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="sixth chakra-ajna(third eye)"
+                            android:textColor="#ff000000"
+                            android:textSize="13.0dp"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="repeat 2 Time"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1:00 MIN"
+                            android:textColor="#ffff5722"
+                            android:textSize="09dp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/thirdeyesajanachakra"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffaaa9a9" />
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:id="@+id/pose16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:text="sevennth chakra-sahsrara(crown chakra)"
+                            android:textAllCaps="true"
+                            android:textColor="#ff000000"
+                            android:textSize="12.0dp"
+                            android:textStyle="bold"
+
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="repeat 2 Time"
+                            android:textSize="10dp"
+                            android:textStyle="bold"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1:00 MIN"
+                            android:textColor="#ffff5722"
+                            android:textSize="09dp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0"
+                        >
+
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/crownchakra"
+
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="0.0"
+                        >
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5.0dp"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+
+
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0dp"
+                    android:background="#ffaaa9a9"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        </ScrollView>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+

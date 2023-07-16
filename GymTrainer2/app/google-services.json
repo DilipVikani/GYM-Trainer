@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "536480006812",
+    "project_id": "fir-connection-323e6",
+    "storage_bucket": "fir-connection-323e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536480006812:android:debeab94be98f9ea8f2359",
+        "android_client_info": {
+          "package_name": "com.example.gymtrainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536480006812-cd744maml4nt784ld66lilrqn69u4j1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymtrainer",
+            "certificate_hash": "089ac6a30e7f0f56b61a3cef48051d9083cc644c"
+          }
+        },
+        {
+          "client_id": "536480006812-gqtborb51vbapobl8qcpgh86bvo1kjmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAuR9zQDEx7Tol-DqoT0b2uII23Aq0hhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536480006812-gqtborb51vbapobl8qcpgh86bvo1kjmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

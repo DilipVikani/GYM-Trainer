@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    tools:context=".EXERCISE">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarExcercise"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        app:menu="@menu/excersice_menu"
+        app:title="EXERCISE"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1.0"
+        android:background="#FFFFFF"
+        android:scrollbars="none"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:columnCount="2"
+            android:rowCount="4">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="170dp"
+                android:layout_height="300dp"
+                android:layout_margin="5sp"
+                android:background="@drawable/listbg2"
+                android:src="@drawable/abs" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="170dp"
+                android:layout_height="300dp"
+                android:layout_margin="5sp"
+                android:background="@drawable/listbg2"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="170dp"
+                android:layout_height="300dp"
+                android:layout_margin="5sp"
+                android:background="@drawable/listbg2"
+                android:src="@drawable/biceps" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="170dp"
+                android:layout_height="300dp"
+                android:layout_margin="5sp"
+                android:background="@drawable/listbg2"
+                android:src="@drawable/forearms" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="170dp"
+                android:layout_height="300dp"
+                android:layout_margin="5sp"
+                android:background="@drawable/listbg2"
+                android:src="@drawable/chest" />
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="170dp"
+                android:layout_height="300dp"
+                android:layout_margin="5sp"
+                android:background="@drawable/listbg2"
+                android:src="@drawable/shoulders" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
